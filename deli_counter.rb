@@ -1,8 +1,12 @@
 # Write your code here.
 def line(array)
   if line.length == 0
-    "The line is currently empty."
+  puts  "The line is currently empty."
   else
-    array
+    string = "The line is currently: "
+    array.each_with_index do |name,|
+      string << "#{index}. #{name} "
+    end
+    string
   end
 end
