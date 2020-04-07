@@ -10,3 +10,8 @@ def line(array)
     puts "#{string}"
   end
 end
+
+def take_a_number(line, person)
+  line.push(person)
+  puts "Welcome, #{person}. You are number #{line.length + 1} in line."
+end
