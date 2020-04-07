@@ -7,6 +7,6 @@ def line(array)
     array.each_with_index do |name, index|
       string << "#{index}. #{name} "
     end
-    string
+    puts "#{}string"
   end
 end
